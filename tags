@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+#:linkdemo	defmodule.lisp	/^(restas:define-module #:linkdemo$/;"	f
+#:linkdemo.pg-datastore	defmodule.lisp	/^(defpackage #:linkdemo.pg-datastore$/;"	f
+*db*	pg-datastore.lisp	/^(defparameter *db*$/;"	f
+*static-directory*	defmodule.lisp	/^(defparameter *static-directory*$/;"	f
+*template-directory*	defmodule.lisp	/^(defparameter *template-directory*$/;"	f
+add-vote-count	pg-datastore.lisp	/^(defun add-vote-count (datastore links username)$/;"	f
+check-password	pg-datastore.lisp	/^(defun check-password (password password-hash salt)$/;"	f
+datastore	defmodule.lisp	/^(restas:define-policy datastore$/;"	f
+datastore-auth-user	pg-datastore.lisp	/^(defmethod datastore-auth-user ((datastore pg-datastore) username password)$/;"	f
+datastore-find-user	pg-datastore.lisp	/^(defmethod datastore-find-user ((datastore pg-datastore) username)$/;"	f
+datastore-get-all-links	pg-datastore.lisp	/^(defmethod datastore-get-all-links ((datastore pg-datastore)$/;"	f
+datastore-init	pg-datastore.lisp	/^(defmethod datastore-init ((datastore pg-datastore))$/;"	f
+datastore-post-link	pg-datastore.lisp	/^(defmethod datastore-post-link ((datastore pg-datastore) url title user)$/;"	f
+datastore-register-user	pg-datastore.lisp	/^(defmethod datastore-register-user ((datastore pg-datastore) username password)$/;"	f
+datastore-upvote	pg-datastore.lisp	/^(defmethod datastore-upvote ((datastore pg-datastore) link-id user)$/;"	f
+datastore-upvote-count	pg-datastore.lisp	/^(defmethod datastore-upvote-count ((datastore pg-datastore) link-id)$/;"	f
+datastore-upvoted-p	pg-datastore.lisp	/^(defmethod datastore-upvoted-p ((datastore pg-datastore) link-id user)$/;"	f
+get-all-links	util.lisp	/^(defun get-all-links (&optional username)$/;"	f
+get-all-links/internal	pg-datastore.lisp	/^(defun get-all-links\/internal ()$/;"	f
+hash-password	pg-datastore.lisp	/^(defun hash-password (password)$/;"	f
+home	template.lisp	/^(define-route home ("")$/;"	f
+home-page	template.lisp	/^(defun home-page (links)$/;"	f
+html-frame	template.lisp	/^(defun html-frame (context)$/;"	f
+links	pg-datastore.lisp	/^(defclass links ()$/;"	f
+links	pg-datastore.lisp	/^(deftable links$/;"	f
+log-in	util.lisp	/^(defun log-in (username &optional (redirect-route 'home))$/;"	f
+log-out	util.lisp	/^(defun log-out (&optional (redirect-route 'home))$/;"	f
+logged-on-p	util.lisp	/^(defun logged-on-p ()$/;"	f
+login	template.lisp	/^(define-route login ("login")$/;"	f
+login-form	template.lisp	/^(defun login-form ()$/;"	f
+login/post	template.lisp	/^(define-route login\/post ("login" :method :post)$/;"	f
+logout	template.lisp	/^(define-route logout ("logout")$/;"	f
+pg-datastore	pg-datastore.lisp	/^(defclass pg-datastore ()$/;"	f
+register	template.lisp	/^(define-route register ("register")$/;"	f
+register-form	template.lisp	/^(defun register-form ()$/;"	f
+register/post	template.lisp	/^(define-route register\/post ("register" :method :post)$/;"	f
+sort-links	pg-datastore.lisp	/^(defun sort-links (links)$/;"	f
+start-linkdemo	util.lisp	/^(defun start-linkdemo (&key$/;"	f
+submit	template.lisp	/^(define-route submit ("submit")$/;"	f
+submit-form	template.lisp	/^(defun submit-form ()$/;"	f
+submit/post	template.lisp	/^(define-route submit\/post ("submit" :method :post)$/;"	f
+upvote-link	template.lisp	/^(define-route upvote-link ("upvote\/:id")$/;"	f
+users	pg-datastore.lisp	/^(defclass users ()$/;"	f
+votes	pg-datastore.lisp	/^(defclass votes ()$/;"	f
+votes	pg-datastore.lisp	/^(deftable votes$/;"	f
